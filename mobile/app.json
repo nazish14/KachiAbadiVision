@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "KachiAbadiVision",
+    "slug": "kachiabadi-vision",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Capture images of civic issues to create reports.",
+        "NSPhotoLibraryUsageDescription": "Select street images for civic issue reporting.",
+        "NSLocationWhenInUseUsageDescription": "Attach optional coordinates to a civic issue report."
+      }
+    },
+    "android": {"permissions": ["CAMERA", "READ_MEDIA_IMAGES", "ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]}
+  }
+}
